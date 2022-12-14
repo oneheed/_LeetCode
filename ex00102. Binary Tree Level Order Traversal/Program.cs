@@ -24,38 +24,17 @@ public class Solution
 
         resut.Add(new List<int> { root.val });
 
-
-        while (root.left != null)
-        {
-            var temp = new List<int>();
-
-            if (root.left != null)
-                temp.Add(root.left.val);
-
-            if (root.right != null)
-                temp.Add(root.right.val);
-
-            resut.Add(temp);
-
-            root.left = root.left.left;
-        }
-
-        while (root.right != null)
-        {
-            var temp = new List<int>();
-
-            if (root.left != null)
-                temp.Add(root.left.val);
-
-            if (root.right != null)
-                temp.Add(root.right.val);
-
-            resut.Add(temp);
-
-            root.right = root.right.right;
-        }
+        //resut.Add(new List<int>().AddRange());
 
         return resut;
+    }
+
+    private List<int> Test(TreeNode root)
+    {
+        if (root == null)
+            return new List<int>();
+
+        return new List<int> { root.left.val, root.right.val };
     }
 }
 
