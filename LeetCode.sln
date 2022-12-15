@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00102. Binary Tree Level 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex0098. Validate Binary Search Treee", "ex0098. Validate Binary Search Treee\ex0098. Validate Binary Search Treee.csproj", "{637CF44C-5F48-4D13-A3C0-637E8ED44646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00230. Kth Smallest Element in a BST", "ex00230. Kth Smallest Element in a BST\ex00230. Kth Smallest Element in a BST.csproj", "{A96290A3-EB3E-4D92-9C77-566A08006389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00230. Kth Smallest Element in a BST", "ex00230. Kth Smallest Element in a BST\ex00230. Kth Smallest Element in a BST.csproj", "{A96290A3-EB3E-4D92-9C77-566A08006389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Traversal", "Binary Tree Traversal\Binary Tree Traversal.csproj", "{FA425114-05F6-4E91-9F40-C865276E35DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA425114-05F6-4E91-9F40-C865276E35DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA425114-05F6-4E91-9F40-C865276E35DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA425114-05F6-4E91-9F40-C865276E35DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA425114-05F6-4E91-9F40-C865276E35DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,23 +18,39 @@ Console.WriteLine(output1.ToString()); // [4,7,2,9,6,3,1]
 
 public class Solution
 {
+    Queue<TreeNode> level = new Queue<TreeNode>();
+
     public IList<IList<int>> LevelOrder(TreeNode root)
     {
-        var resut = new List<IList<int>>();
-
-        resut.Add(new List<int> { root.val });
-
-        //resut.Add(new List<int>().AddRange());
-
-        return resut;
-    }
-
-    private List<int> Test(TreeNode root)
-    {
         if (root == null)
-            return new List<int>();
+            return new List<IList<int>>();
 
-        return new List<int> { root.left.val, root.right.val };
+        level.Enqueue(root);
+        var result = new List<IList<int>>();
+
+        while (level.Count != 0)
+        {
+            var sizeInLevel = level.Count;
+            var temp = new List<int>();
+
+            while (sizeInLevel != 0)
+            {
+                var currentNode = level.Dequeue();
+
+                if (currentNode.left != null)
+                    level.Enqueue(currentNode.left);
+                if (currentNode.right != null)
+                    level.Enqueue(currentNode.right);
+
+                temp.Add(currentNode.val);
+
+                sizeInLevel--;
+            }
+
+            result.Add(temp);
+        }
+
+        return result;
     }
 }
 

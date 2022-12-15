@@ -15,26 +15,35 @@ var input3 = new TreeNode(5, new(4), new(6, new(3), new(7)));
 var output3 = solution.IsValidBST(input3);
 Console.WriteLine(string.Join(",", output3)); // [3,4,6,16,17]
 
+var input4 = new TreeNode(2147483647);
+var output4 = solution.IsValidBST(input4);
+Console.WriteLine(string.Join(",", output4)); // [3,4,6,16,17]
+
 
 public class Solution
 {
-    private TreeNode prev = null;
-
     public bool IsValidBST(TreeNode root)
     {
         if (root == null)
-        {
             return true;
-        }
 
-        if (!IsValidBST(root.left) || prev != null && prev.val >= root.val)
+        return IsValidBSTInternal(root, int.MinValue, int.MaxValue);
+    }
+
+    private bool IsValidBSTInternal(TreeNode node, long min, long max)
+    {
+        if (node == null)
+            return true;
+
+        Console.WriteLine($"{node.val} {min} - {max}");
+
+        if (node.val <= min || node.val >= max)
         {
             return false;
         }
 
-        prev = root;
-
-        return IsValidBST(root.right);
+        return IsValidBSTInternal(node.left, min, node.val)
+            && IsValidBSTInternal(node.right, node.val, max);
     }
 }
 
