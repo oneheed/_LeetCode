@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex0098. Validate Binary Sea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00230. Kth Smallest Element in a BST", "ex00230. Kth Smallest Element in a BST\ex00230. Kth Smallest Element in a BST.csproj", "{A96290A3-EB3E-4D92-9C77-566A08006389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Traversal", "Binary Tree Traversal\Binary Tree Traversal.csproj", "{FA425114-05F6-4E91-9F40-C865276E35DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Tree Traversal", "Binary Tree Traversal\Binary Tree Traversal.csproj", "{FA425114-05F6-4E91-9F40-C865276E35DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00232. Implement Queue using Stacks", "ex00232. Implement Queue using Stacks\ex00232. Implement Queue using Stacks.csproj", "{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FA425114-05F6-4E91-9F40-C865276E35DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA425114-05F6-4E91-9F40-C865276E35DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA425114-05F6-4E91-9F40-C865276E35DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
