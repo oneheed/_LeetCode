@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00230. Kth Smallest Eleme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Tree Traversal", "Binary Tree Traversal\Binary Tree Traversal.csproj", "{FA425114-05F6-4E91-9F40-C865276E35DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00232. Implement Queue using Stacks", "ex00232. Implement Queue using Stacks\ex00232. Implement Queue using Stacks.csproj", "{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00232. Implement Queue using Stacks", "ex00232. Implement Queue using Stacks\ex00232. Implement Queue using Stacks.csproj", "{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06265. Count Pairs Of Similar Strings", "ex06265. Count Pairs Of Similar Strings\ex06265. Count Pairs Of Similar Strings.csproj", "{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06266. Smallest Value After Replacing With Sum of Prime Factors", "ex06266. Smallest Value After Replacing With Sum of Prime Factors\ex06266. Smallest Value After Replacing With Sum of Prime Factors.csproj", "{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex02508. Add Edges to Make Degrees of All Nodes Even", "ex02508. Add Edges to Make Degrees of All Nodes Even\ex02508. Add Edges to Make Degrees of All Nodes Even.csproj", "{53B96BB9-D93F-4EFC-8184-EB2792FD8576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
