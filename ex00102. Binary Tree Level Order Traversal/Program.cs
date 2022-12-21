@@ -5,7 +5,7 @@ var solution = new Solution();
 
 var input1 = new TreeNode(3, new(9), new(20, new(15), new(7)));
 var output1 = solution.LevelOrder(input1);
-Console.WriteLine(output1.ToString()); // [4,7,2,9,6,3,1]
+Console.WriteLine(output1.ToString()); // [[3],[9,20],[15,7]]
 
 //var input2 = new int[] { 1, 1, 1, 1, 1 };
 //var output2 = solution.RunningSum(input2);

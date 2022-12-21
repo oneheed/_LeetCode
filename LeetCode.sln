@@ -11,19 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00104. Maximum Depth of B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00102. Binary Tree Level Order Traversal", "ex00102. Binary Tree Level Order Traversal\ex00102. Binary Tree Level Order Traversal.csproj", "{5052270A-B4F0-426C-984F-8ACDF4D92A39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex0098. Validate Binary Search Treee", "ex0098. Validate Binary Search Treee\ex0098. Validate Binary Search Treee.csproj", "{637CF44C-5F48-4D13-A3C0-637E8ED44646}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00230. Kth Smallest Element in a BST", "ex00230. Kth Smallest Element in a BST\ex00230. Kth Smallest Element in a BST.csproj", "{A96290A3-EB3E-4D92-9C77-566A08006389}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Tree Traversal", "Binary Tree Traversal\Binary Tree Traversal.csproj", "{FA425114-05F6-4E91-9F40-C865276E35DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00232. Implement Queue using Stacks", "ex00232. Implement Queue using Stacks\ex00232. Implement Queue using Stacks.csproj", "{E9121AB5-EC55-4893-B336-C4C7EE48DAC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06265. Count Pairs Of Similar Strings", "ex06265. Count Pairs Of Similar Strings\ex06265. Count Pairs Of Similar Strings.csproj", "{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06265. Count Pairs Of Similar Strings", "ex06265. Count Pairs Of Similar Strings\ex06265. Count Pairs Of Similar Strings.csproj", "{72CDB790-C5EF-4AB1-B543-3EDBB594FAE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06266. Smallest Value After Replacing With Sum of Prime Factors", "ex06266. Smallest Value After Replacing With Sum of Prime Factors\ex06266. Smallest Value After Replacing With Sum of Prime Factors.csproj", "{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06266. Smallest Value After Replacing With Sum of Prime Factors", "ex06266. Smallest Value After Replacing With Sum of Prime Factors\ex06266. Smallest Value After Replacing With Sum of Prime Factors.csproj", "{2B3C83D5-0C61-421F-B9C1-C1C6E982B7DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex02508. Add Edges to Make Degrees of All Nodes Even", "ex02508. Add Edges to Make Degrees of All Nodes Even\ex02508. Add Edges to Make Degrees of All Nodes Even.csproj", "{53B96BB9-D93F-4EFC-8184-EB2792FD8576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex02508. Add Edges to Make Degrees of All Nodes Even", "ex02508. Add Edges to Make Degrees of All Nodes Even\ex02508. Add Edges to Make Degrees of All Nodes Even.csproj", "{53B96BB9-D93F-4EFC-8184-EB2792FD8576}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00450. Delete Node in a BST", "ex00450. Delete Node in a BST\ex00450. Delete Node in a BST.csproj", "{68370F86-D59C-4B08-A10C-036524700E9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00098. Validate Binary Search Treee", "ex00098. Validate Binary Search Treee\ex00098. Validate Binary Search Treee.csproj", "{3E9B4EB4-C75D-483C-83FA-AB2035091C02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00572. Subtree of Another Tree", "ex00572. Subtree of Another Tree\ex00572. Subtree of Another Tree.csproj", "{CD534E15-05BE-4B0D-B1A1-52ABC32125FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00110. Balanced Binary Tree", "ex00110. Balanced Binary Tree\ex00110. Balanced Binary Tree.csproj", "{EE97744A-5852-47D5-96C2-C4AFF6F828F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01325. Delete Leaves With a Given Value", "ex01325. Delete Leaves With a Given Value\ex01325. Delete Leaves With a Given Value.csproj", "{FA944CDC-F660-49B4-8193-BAA9379CF786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +55,6 @@ Global
 		{5052270A-B4F0-426C-984F-8ACDF4D92A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5052270A-B4F0-426C-984F-8ACDF4D92A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5052270A-B4F0-426C-984F-8ACDF4D92A39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{637CF44C-5F48-4D13-A3C0-637E8ED44646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{637CF44C-5F48-4D13-A3C0-637E8ED44646}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{637CF44C-5F48-4D13-A3C0-637E8ED44646}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{637CF44C-5F48-4D13-A3C0-637E8ED44646}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96290A3-EB3E-4D92-9C77-566A08006389}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +79,26 @@ Global
 		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B96BB9-D93F-4EFC-8184-EB2792FD8576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68370F86-D59C-4B08-A10C-036524700E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68370F86-D59C-4B08-A10C-036524700E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68370F86-D59C-4B08-A10C-036524700E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68370F86-D59C-4B08-A10C-036524700E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9B4EB4-C75D-483C-83FA-AB2035091C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9B4EB4-C75D-483C-83FA-AB2035091C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9B4EB4-C75D-483C-83FA-AB2035091C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9B4EB4-C75D-483C-83FA-AB2035091C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD534E15-05BE-4B0D-B1A1-52ABC32125FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD534E15-05BE-4B0D-B1A1-52ABC32125FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD534E15-05BE-4B0D-B1A1-52ABC32125FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD534E15-05BE-4B0D-B1A1-52ABC32125FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE97744A-5852-47D5-96C2-C4AFF6F828F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE97744A-5852-47D5-96C2-C4AFF6F828F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE97744A-5852-47D5-96C2-C4AFF6F828F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE97744A-5852-47D5-96C2-C4AFF6F828F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA944CDC-F660-49B4-8193-BAA9379CF786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA944CDC-F660-49B4-8193-BAA9379CF786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA944CDC-F660-49B4-8193-BAA9379CF786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA944CDC-F660-49B4-8193-BAA9379CF786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

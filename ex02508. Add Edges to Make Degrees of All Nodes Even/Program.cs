@@ -51,8 +51,8 @@ public class Solution
             result[edge[1]].Remove(edge[0]);
         }
 
-        if (n % 2 == 0 && result.Any(x => x.Value == n - 1))
-            return false;
+        //if (n % 2 == 0 && result.Any(x => x.Value == n - 1))
+        //return false;
 
         //if (!result.Any(x => x.Value % 2 == 1))
         //{
@@ -73,5 +73,29 @@ public class Solution
         //}
 
         return false;
+    }
+}
+
+
+
+public class TestClass1
+{
+    private readonly int _test1;
+
+    public int Test1 { get { return _test1; } }
+
+    public TestClass1()
+    {
+        _test1 = 1;
+    }
+}
+
+public class TestClass2
+{
+    public int Test1 { get; }
+
+    public TestClass2()
+    {
+        Test1 = 1;
     }
 }
