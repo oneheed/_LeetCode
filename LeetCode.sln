@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00167. Two Sum II - Input
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00015. 3Sum", "ex00015. 3Sum\ex00015. 3Sum.csproj", "{6F9F1943-B9D8-4103-AF4A-A23F68198943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00669. Trim a Binary Search Tree", "ex00669. Trim a Binary Search Tree\ex00669. Trim a Binary Search Tree.csproj", "{DEA5A3AE-2FFB-4B7F-903D-EB2D073EBC6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6F9F1943-B9D8-4103-AF4A-A23F68198943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9F1943-B9D8-4103-AF4A-A23F68198943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9F1943-B9D8-4103-AF4A-A23F68198943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA5A3AE-2FFB-4B7F-903D-EB2D073EBC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA5A3AE-2FFB-4B7F-903D-EB2D073EBC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA5A3AE-2FFB-4B7F-903D-EB2D073EBC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA5A3AE-2FFB-4B7F-903D-EB2D073EBC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
