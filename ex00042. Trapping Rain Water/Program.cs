@@ -13,53 +13,58 @@ var input3 = new int[] { 4, 2, 3 };
 var output3 = solution.Trap(input3);
 Console.WriteLine(output3); // 1
 
+var input4 = new int[] { 5, 4, 1, 2 };
+var output4 = solution.Trap(input4);
+Console.WriteLine(output4); // 1
+
+var input5 = new int[] { 1, 7, 5 };
+var output5 = solution.Trap(input5);
+Console.WriteLine(output5); // 0
+
+var input6 = new int[] { 0, 1, 2, 0, 3, 0, 1, 2, 0, 0, 4, 2, 1, 2, 5, 0, 1, 2, 0, 2 };
+var output6 = solution.Trap(input6);
+Console.WriteLine(output6); // 26
+
+var input7 = new int[] { 4, 3, 3, 9, 3, 0, 9, 2, 8, 3 };
+var output7 = solution.Trap(input7);
+Console.WriteLine(output7); // 23
+
+var input8 = new int[] { 4, 9, 4, 5, 3, 2 };
+var output8 = solution.Trap(input8);
+Console.WriteLine(output8); // 1
+
 public class Solution
 {
     public int Trap(int[] height)
     {
-        var result = 0;
 
-        var left = 0;
+        if (height == null || height.Length == 0)
+            return 0;
 
-        while (height[left] == 0)
-            left++;
-
-        while (left < height.Length - 2)
+        int i = 0, j = height.Length - 1, res = 0;
+        int leftHighest = 0, rightHighest = 0;
+        while (i <= j)
         {
-            var diff = height[left + 1];
-            var right = left + 2;
-            var temp = Math.Min(height[left], height[right]) * (right - left - 1) - diff;
-
-            while (temp < 0)
+            if (height[i] < height[j])
             {
-                diff += height[right];
-                right++;
-                temp = Math.Min(height[left], height[right]) * (right - left - 1) - diff;
+                if (height[i] < leftHighest)
+                    res += leftHighest - height[i];
+                else
+                    leftHighest = height[i];
+
+                i++;
             }
-
-            if (right == height.Length - 1 && temp > 0)
+            else
             {
-                result += temp;
-                break;
-            }
+                if (height[j] < rightHighest)
+                    res += rightHighest - height[j];
+                else
+                    rightHighest = height[j];
 
-            while (right < height.Length - 1)
-            {
-                diff += height[right];
-                right++;
-
-                var temp2 = Math.Min(height[left], height[right]) * (right - left - 1) - diff;
-                if (temp > temp2)
-                {
-                    result += temp;
-                    left = right - 1;
-                    break;
-                }
-
-                temp = temp2;
+                j--;
             }
         }
 
-        return result;
+        return res;
     }
 }

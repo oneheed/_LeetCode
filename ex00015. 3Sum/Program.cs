@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-var solution = new Solution1();
+var solution = new Solution();
 
 Console.WriteLine("=1=");
 var input1 = new int[] { -1, 0, 1, 2, -1, -4 };
@@ -42,6 +42,7 @@ foreach (var item in output5)
 }
 
 
+// -5,-5,-4,-4,-4,-2,-2,-2,0,0,0,1,1,3,4,4
 public class Solution
 {
     public IList<IList<int>> ThreeSum(int[] nums)
@@ -61,7 +62,6 @@ public class Solution
             while (left < right)
             {
                 var sum = nums[i] + nums[left] + nums[right];
-
                 if (sum == 0)
                 {
                     result.Add(new List<int> { nums[i], nums[left], nums[right] });
@@ -69,17 +69,15 @@ public class Solution
                     right--;
 
                     while (left < right && nums[left] == nums[left - 1])
-                    {
                         left++;
-                    }
                 }
-                else if (sum < 0)
+                else if (sum > 0)
                 {
-                    left++;
+                    right--;
                 }
                 else
                 {
-                    right--;
+                    left++;
                 }
             }
         }
