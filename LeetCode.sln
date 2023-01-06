@@ -81,15 +81,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00944. Delete Columns to 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex02244. Minimum Rounds to Complete All Tasks", "ex02244. Minimum Rounds to Complete All Tasks\ex02244. Minimum Rounds to Complete All Tasks.csproj", "{84FD87AA-0DEE-4E5B-BBC2-7B6015D26AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00452. Minimum Number of Arrows to Burst Balloons", "ex00452. Minimum Number of Arrows to Burst Balloons\ex00452. Minimum Number of Arrows to Burst Balloons.csproj", "{247058CF-2BE6-453E-9AA6-1CB8385B755C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00452. Minimum Number of Arrows to Burst Balloons", "ex00452. Minimum Number of Arrows to Burst Balloons\ex00452. Minimum Number of Arrows to Burst Balloons.csproj", "{247058CF-2BE6-453E-9AA6-1CB8385B755C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00003. Longest Substring Without Repeating Characters", "ex00003. Longest Substring Without Repeating Characters\ex00003. Longest Substring Without Repeating Characters.csproj", "{8D71A13C-54CE-4D7A-A3AA-BF8D2F63CCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00003. Longest Substring Without Repeating Characters", "ex00003. Longest Substring Without Repeating Characters\ex00003. Longest Substring Without Repeating Characters.csproj", "{8D71A13C-54CE-4D7A-A3AA-BF8D2F63CCF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00424. Longest Repeating Character Replacement", "ex00424. Longest Repeating Character Replacement\ex00424. Longest Repeating Character Replacement.csproj", "{6DB13168-E586-4690-81A2-0E2AB9B51813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00424. Longest Repeating Character Replacement", "ex00424. Longest Repeating Character Replacement\ex00424. Longest Repeating Character Replacement.csproj", "{6DB13168-E586-4690-81A2-0E2AB9B51813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00239. Sliding Window Maximum", "ex00239. Sliding Window Maximum\ex00239. Sliding Window Maximum.csproj", "{72222EE0-5EA0-422A-879D-794B745E35A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00239. Sliding Window Maximum", "ex00239. Sliding Window Maximum\ex00239. Sliding Window Maximum.csproj", "{72222EE0-5EA0-422A-879D-794B745E35A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00567. Permutation in String", "ex00567. Permutation in String\ex00567. Permutation in String.csproj", "{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00567. Permutation in String", "ex00567. Permutation in String\ex00567. Permutation in String.csproj", "{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00076. Minimum Window Substring", "ex00076. Minimum Window Substring\ex00076. Minimum Window Substring.csproj", "{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01833. Maximum Ice Cream Bars", "ex01833. Maximum Ice Cream Bars\ex01833. Maximum Ice Cream Bars.csproj", "{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{AA27A97F-0334-4846-8A27-3E158B36C48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Usage", "Learn\Array\Array_Usage\Array_Usage.csproj", "{C5F09173-8F07-4F7E-AE32-78416AEED272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learn", "Learn", "{A914729C-4E6E-4442-AA18-6FC1711FB422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,9 +283,25 @@ Global
 		{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F09173-8F07-4F7E-AE32-78416AEED272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F09173-8F07-4F7E-AE32-78416AEED272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F09173-8F07-4F7E-AE32-78416AEED272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F09173-8F07-4F7E-AE32-78416AEED272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA27A97F-0334-4846-8A27-3E158B36C48D} = {A914729C-4E6E-4442-AA18-6FC1711FB422}
+		{C5F09173-8F07-4F7E-AE32-78416AEED272} = {AA27A97F-0334-4846-8A27-3E158B36C48D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD1EA922-271E-4C3C-AEB1-8451343A5208}
