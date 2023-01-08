@@ -91,35 +91,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00239. Sliding Window Max
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00567. Permutation in String", "ex00567. Permutation in String\ex00567. Permutation in String.csproj", "{1526A183-0EE1-4384-A4AF-D4FE6C133DCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00076. Minimum Window Substring", "ex00076. Minimum Window Substring\ex00076. Minimum Window Substring.csproj", "{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00076. Minimum Window Substring", "ex00076. Minimum Window Substring\ex00076. Minimum Window Substring.csproj", "{A1FDB89D-2583-4BB4-85C1-9A8832E9EA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01833. Maximum Ice Cream Bars", "ex01833. Maximum Ice Cream Bars\ex01833. Maximum Ice Cream Bars.csproj", "{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01833. Maximum Ice Cream Bars", "ex01833. Maximum Ice Cream Bars\ex01833. Maximum Ice Cream Bars.csproj", "{1B320CA6-6039-4427-80E8-7BB2E24FE4B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{AA27A97F-0334-4846-8A27-3E158B36C48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Usage", "Learn\Array\Array_Usage\Array_Usage.csproj", "{C5F09173-8F07-4F7E-AE32-78416AEED272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array_Usage", "Learn\Array\Array_Usage\Array_Usage.csproj", "{C5F09173-8F07-4F7E-AE32-78416AEED272}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learn", "Learn", "{A914729C-4E6E-4442-AA18-6FC1711FB422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06283. Maximum Count of Positive Integer and Negative Integer", "ex06283. Maximum Count of Positive Integer and Negative Integer\ex06283. Maximum Count of Positive Integer and Negative Integer.csproj", "{C4931D5D-F8D4-4427-AD62-257B9660A7CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06283. Maximum Count of Positive Integer and Negative Integer", "ex06283. Maximum Count of Positive Integer and Negative Integer\ex06283. Maximum Count of Positive Integer and Negative Integer.csproj", "{C4931D5D-F8D4-4427-AD62-257B9660A7CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06285. Maximal Score After Applying K Operations", "ex06285. Maximal Score After Applying K Operations\ex06285. Maximal Score After Applying K Operations.csproj", "{84AF5593-0BBA-4BEE-968D-0DC80313B453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06285. Maximal Score After Applying K Operations", "ex06285. Maximal Score After Applying K Operations\ex06285. Maximal Score After Applying K Operations.csproj", "{84AF5593-0BBA-4BEE-968D-0DC80313B453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06284. Make Number of Distinct Characters Equal", "ex06284. Make Number of Distinct Characters Equal\ex06284. Make Number of Distinct Characters Equal.csproj", "{A84E7286-28A1-44E2-8785-E9F0BB3656AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06284. Make Number of Distinct Characters Equal", "ex06284. Make Number of Distinct Characters Equal\ex06284. Make Number of Distinct Characters Equal.csproj", "{A84E7286-28A1-44E2-8785-E9F0BB3656AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00134. Gas Station", "ex00134. Gas Station\ex00134. Gas Station.csproj", "{625355CC-30B8-44DE-B02B-C6C2628AA9AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00134. Gas Station", "ex00134. Gas Station\ex00134. Gas Station.csproj", "{625355CC-30B8-44DE-B02B-C6C2628AA9AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00217. Contains Duplicate", "ex00217. Contains Duplicate\ex00217. Contains Duplicate.csproj", "{53AC312F-10E7-46D1-B276-30200FC27685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00217. Contains Duplicate", "ex00217. Contains Duplicate\ex00217. Contains Duplicate.csproj", "{53AC312F-10E7-46D1-B276-30200FC27685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00242. Valid Anagram", "ex00242. Valid Anagram\ex00242. Valid Anagram.csproj", "{89727538-05B2-4185-AD3D-9FE63161773D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00242. Valid Anagram", "ex00242. Valid Anagram\ex00242. Valid Anagram.csproj", "{89727538-05B2-4185-AD3D-9FE63161773D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00001. Two Sum", "ex00001. Two Sum\ex00001. Two Sum.csproj", "{30BC47E7-9F6A-45CE-9151-BF1A1A45093B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00001. Two Sum", "ex00001. Two Sum\ex00001. Two Sum.csproj", "{30BC47E7-9F6A-45CE-9151-BF1A1A45093B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00049. Group Anagrams", "ex00049. Group Anagrams\ex00049. Group Anagrams.csproj", "{0FFD4751-6925-47EF-A963-57D083069DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00049. Group Anagrams", "ex00049. Group Anagrams\ex00049. Group Anagrams.csproj", "{0FFD4751-6925-47EF-A963-57D083069DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00347. Top K Frequent Elements", "ex00347. Top K Frequent Elements\ex00347. Top K Frequent Elements.csproj", "{E2F5B774-1DE0-4F3B-A541-159FB590ABCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00347. Top K Frequent Elements", "ex00347. Top K Frequent Elements\ex00347. Top K Frequent Elements.csproj", "{E2F5B774-1DE0-4F3B-A541-159FB590ABCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00238. Product of Array Except Self", "ex00238. Product of Array Except Self\ex00238. Product of Array Except Self.csproj", "{5EE1F75B-287B-4BF8-B5B5-88A298924A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00238. Product of Array Except Self", "ex00238. Product of Array Except Self\ex00238. Product of Array Except Self.csproj", "{5EE1F75B-287B-4BF8-B5B5-88A298924A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,7 +327,7 @@ Global
 		{A84E7286-28A1-44E2-8785-E9F0BB3656AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84E7286-28A1-44E2-8785-E9F0BB3656AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A84E7286-28A1-44E2-8785-E9F0BB3656AB}.Release|Any CPU.Build.0 = Release|Any CPU
-        {625355CC-30B8-44DE-B02B-C6C2628AA9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625355CC-30B8-44DE-B02B-C6C2628AA9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{625355CC-30B8-44DE-B02B-C6C2628AA9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625355CC-30B8-44DE-B02B-C6C2628AA9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625355CC-30B8-44DE-B02B-C6C2628AA9AC}.Release|Any CPU.Build.0 = Release|Any CPU
