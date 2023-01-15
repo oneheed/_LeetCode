@@ -121,7 +121,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00347. Top K Frequent Ele
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00238. Product of Array Except Self", "ex00238. Product of Array Except Self\ex00238. Product of Array Except Self.csproj", "{5EE1F75B-287B-4BF8-B5B5-88A298924A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00438. Find All Anagrams in a String", "ex00438. Find All Anagrams in a String\ex00438. Find All Anagrams in a String.csproj", "{79F68D40-60EE-4271-826E-779A0AC4C686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00438. Find All Anagrams in a String", "ex00438. Find All Anagrams in a String\ex00438. Find All Anagrams in a String.csproj", "{79F68D40-60EE-4271-826E-779A0AC4C686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06291. Difference Between Element Sum and Digit Sum of an Array", "ex06291. Difference Between Element Sum and Digit Sum of an Array\ex06291. Difference Between Element Sum and Digit Sum of an Array.csproj", "{FAF6F294-4414-4840-9135-84A8AACF5CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06292. Increment Submatrices by One", "ex06292. Increment Submatrices by One\ex06292. Increment Submatrices by One.csproj", "{33E4069B-7EA9-47BB-9228-0827157F480D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06293. Count the Number of Good Subarrays", "ex06293. Count the Number of Good Subarrays\ex06293. Count the Number of Good Subarrays.csproj", "{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -361,6 +367,18 @@ Global
 		{79F68D40-60EE-4271-826E-779A0AC4C686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F68D40-60EE-4271-826E-779A0AC4C686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F68D40-60EE-4271-826E-779A0AC4C686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF6F294-4414-4840-9135-84A8AACF5CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF6F294-4414-4840-9135-84A8AACF5CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF6F294-4414-4840-9135-84A8AACF5CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF6F294-4414-4840-9135-84A8AACF5CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E4069B-7EA9-47BB-9228-0827157F480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E4069B-7EA9-47BB-9228-0827157F480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E4069B-7EA9-47BB-9228-0827157F480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E4069B-7EA9-47BB-9228-0827157F480D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
