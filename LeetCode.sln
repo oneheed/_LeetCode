@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00046. Permutations", "ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00039. Combination Sum", "ex00039. Combination Sum\ex00039. Combination Sum.csproj", "{8F392ACE-C8E7-430D-A573-DCDB99065375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00051. N-Queens", "ex00051. N-Queens\ex00051. N-Queens.csproj", "{8E469FC1-7841-42FF-8BCC-89DE28E8860A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -511,6 +513,10 @@ Global
 		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
