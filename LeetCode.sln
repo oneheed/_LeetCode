@@ -123,12 +123,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00238. Product of Array E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00438. Find All Anagrams in a String", "ex00438. Find All Anagrams in a String\ex00438. Find All Anagrams in a String.csproj", "{79F68D40-60EE-4271-826E-779A0AC4C686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06291. Difference Between Element Sum and Digit Sum of an Array", "ex06291. Difference Between Element Sum and Digit Sum of an Array\ex06291. Difference Between Element Sum and Digit Sum of an Array.csproj", "{FAF6F294-4414-4840-9135-84A8AACF5CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06291. Difference Between Element Sum and Digit Sum of an Array", "ex06291. Difference Between Element Sum and Digit Sum of an Array\ex06291. Difference Between Element Sum and Digit Sum of an Array.csproj", "{FAF6F294-4414-4840-9135-84A8AACF5CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06292. Increment Submatrices by One", "ex06292. Increment Submatrices by One\ex06292. Increment Submatrices by One.csproj", "{33E4069B-7EA9-47BB-9228-0827157F480D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06292. Increment Submatrices by One", "ex06292. Increment Submatrices by One\ex06292. Increment Submatrices by One.csproj", "{33E4069B-7EA9-47BB-9228-0827157F480D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex06293. Count the Number of Good Subarrays", "ex06293. Count the Number of Good Subarrays\ex06293. Count the Number of Good Subarrays.csproj", "{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}"
-ndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06293. Count the Number of Good Subarrays", "ex06293. Count the Number of Good Subarrays\ex06293. Count the Number of Good Subarrays.csproj", "{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00704. Binary Search", "ex00704. Binary Search\ex00704. Binary Search.csproj", "{AE08081F-0C14-44D6-B995-5C4244EE5AFB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00144. Binary Tree Preorder Traversal", "ex00144. Binary Tree Preorder Traversal\ex00144. Binary Tree Preorder Traversal.csproj", "{ED44D2D2-D829-4BB3-B8C3-EE1C95E600A0}"
@@ -149,7 +149,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00057. Insert Interval", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00926. Flip String to Monotone Increasing", "ex00926. Flip String to Monotone Increasing\ex00926. Flip String to Monotone Increasing.csproj", "{276F4BA9-C7FB-42C8-957A-B7B487961896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00206. Reverse Linked List", "ex00206. Reverse Linked List\ex00206. Reverse Linked List.csproj", "{90C1CA30-4311-4F82-AC9F-7E470B728D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00206. Reverse Linked List", "ex00206. Reverse Linked List\ex00206. Reverse Linked List.csproj", "{90C1CA30-4311-4F82-AC9F-7E470B728D73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00021. Merge Two Sorted Lists", "ex00021. Merge Two Sorted Lists\ex00021. Merge Two Sorted Lists.csproj", "{D4331963-E28E-4E28-8918-D8AC50E0030A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00141. Linked List Cycle", "ex00141. Linked List Cycle\ex00141. Linked List Cycle.csproj", "{8BDB31E8-F39B-48BF-8CA6-0E8642C79955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00974. Subarray Sums Divisible by K", "ex00974. Subarray Sums Divisible by K\ex00974. Subarray Sums Divisible by K.csproj", "{26715190-B446-42F7-A8D0-2CCEC14CDA2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06296. Alternating Digit Sum", "ex06296. Alternating Digit Sum\ex06296. Alternating Digit Sum.csproj", "{4496D630-0181-4E27-8B4E-B325587FE56C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06297. Sort the Students by Their Kth Score", "ex06297. Sort the Students by Their Kth Score\ex06297. Sort the Students by Their Kth Score.csproj", "{E99DAC82-019B-4D29-9161-BEF7C6572ABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06298. Apply Bitwise Operations to Make Strings Equal", "ex06298. Apply Bitwise Operations to Make Strings Equal\ex06298. Apply Bitwise Operations to Make Strings Equal.csproj", "{42AC9CB5-D042-4F44-9E83-4DC1C67AF2D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00997. Find the Town Judge", "ex00997. Find the Town Judge\ex00997. Find the Town Judge.csproj", "{5A42AB4B-8B81-4B4F-B9A0-7365A4C01B2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01137. N-th Tribonacci Number", "ex01137. N-th Tribonacci Number\ex01137. N-th Tribonacci Number.csproj", "{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00078. Subsets", "ex00078. Subsets\ex00078. Subsets.csproj", "{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00046. Permutations", "ex00046. Permutations\ex00046. Permutations.csproj", "{87ED4243-9EF8-4763-B395-4006AE82544A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00039. Combination Sum", "ex00039. Combination Sum\ex00039. Combination Sum.csproj", "{8F392ACE-C8E7-430D-A573-DCDB99065375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -401,7 +423,7 @@ Global
 		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7530F86-1E2C-4228-AC90-4C5C18AC1D6A}.Release|Any CPU.Build.0 = Release|Any CPU
-{AE08081F-0C14-44D6-B995-5C4244EE5AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE08081F-0C14-44D6-B995-5C4244EE5AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE08081F-0C14-44D6-B995-5C4244EE5AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE08081F-0C14-44D6-B995-5C4244EE5AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE08081F-0C14-44D6-B995-5C4244EE5AFB}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -445,6 +467,50 @@ Global
 		{90C1CA30-4311-4F82-AC9F-7E470B728D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C1CA30-4311-4F82-AC9F-7E470B728D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C1CA30-4311-4F82-AC9F-7E470B728D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4331963-E28E-4E28-8918-D8AC50E0030A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4331963-E28E-4E28-8918-D8AC50E0030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4331963-E28E-4E28-8918-D8AC50E0030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4331963-E28E-4E28-8918-D8AC50E0030A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDB31E8-F39B-48BF-8CA6-0E8642C79955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB31E8-F39B-48BF-8CA6-0E8642C79955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB31E8-F39B-48BF-8CA6-0E8642C79955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB31E8-F39B-48BF-8CA6-0E8642C79955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26715190-B446-42F7-A8D0-2CCEC14CDA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26715190-B446-42F7-A8D0-2CCEC14CDA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26715190-B446-42F7-A8D0-2CCEC14CDA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26715190-B446-42F7-A8D0-2CCEC14CDA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4496D630-0181-4E27-8B4E-B325587FE56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4496D630-0181-4E27-8B4E-B325587FE56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4496D630-0181-4E27-8B4E-B325587FE56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4496D630-0181-4E27-8B4E-B325587FE56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99DAC82-019B-4D29-9161-BEF7C6572ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99DAC82-019B-4D29-9161-BEF7C6572ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99DAC82-019B-4D29-9161-BEF7C6572ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99DAC82-019B-4D29-9161-BEF7C6572ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AC9CB5-D042-4F44-9E83-4DC1C67AF2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AC9CB5-D042-4F44-9E83-4DC1C67AF2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AC9CB5-D042-4F44-9E83-4DC1C67AF2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AC9CB5-D042-4F44-9E83-4DC1C67AF2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A42AB4B-8B81-4B4F-B9A0-7365A4C01B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A42AB4B-8B81-4B4F-B9A0-7365A4C01B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A42AB4B-8B81-4B4F-B9A0-7365A4C01B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A42AB4B-8B81-4B4F-B9A0-7365A4C01B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ED4243-9EF8-4763-B395-4006AE82544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ED4243-9EF8-4763-B395-4006AE82544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ED4243-9EF8-4763-B395-4006AE82544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ED4243-9EF8-4763-B395-4006AE82544A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F392ACE-C8E7-430D-A573-DCDB99065375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
