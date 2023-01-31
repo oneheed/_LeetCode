@@ -167,13 +167,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00997. Find the Town Judg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01137. N-th Tribonacci Number", "ex01137. N-th Tribonacci Number\ex01137. N-th Tribonacci Number.csproj", "{BD1160F0-036A-48C5-A99F-B83DB05D0CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00078. Subsets", "ex00078. Subsets\ex00078. Subsets.csproj", "{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00078. Subsets", "ex00078. Subsets\ex00078. Subsets.csproj", "{9F35CE44-E198-4D6D-8CE4-8ACE3350E194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00046. Permutations", "ex00046. Permutations\ex00046. Permutations.csproj", "{87ED4243-9EF8-4763-B395-4006AE82544A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00046. Permutations", "ex00046. Permutations\ex00046. Permutations.csproj", "{87ED4243-9EF8-4763-B395-4006AE82544A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00039. Combination Sum", "ex00039. Combination Sum\ex00039. Combination Sum.csproj", "{8F392ACE-C8E7-430D-A573-DCDB99065375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00039. Combination Sum", "ex00039. Combination Sum\ex00039. Combination Sum.csproj", "{8F392ACE-C8E7-430D-A573-DCDB99065375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00051. N-Queens", "ex00051. N-Queens\ex00051. N-Queens.csproj", "{8E469FC1-7841-42FF-8BCC-89DE28E8860A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00051. N-Queens", "ex00051. N-Queens\ex00051. N-Queens.csproj", "{8E469FC1-7841-42FF-8BCC-89DE28E8860A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01626. Best Team With No Conflicts", "ex01626. Best Team With No Conflicts\ex01626. Best Team With No Conflicts.csproj", "{C0498A90-5573-4FD8-9534-81521F1A9131}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -517,6 +519,10 @@ Global
 		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E469FC1-7841-42FF-8BCC-89DE28E8860A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0498A90-5573-4FD8-9534-81521F1A9131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0498A90-5573-4FD8-9534-81521F1A9131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0498A90-5573-4FD8-9534-81521F1A9131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0498A90-5573-4FD8-9534-81521F1A9131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
