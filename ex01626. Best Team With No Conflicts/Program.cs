@@ -6,7 +6,6 @@ var ages1 = new int[] { 1, 2, 3, 4, 5 };
 var output1 = solution.BestTeamScore(scores1, ages1);
 Console.WriteLine(output1.ToString()); // 34
 
-
 var scores2 = new int[] { 4, 5, 6, 5 };
 var ages2 = new int[] { 2, 1, 2, 1 };
 var output2 = solution.BestTeamScore(scores2, ages2);
@@ -22,12 +21,10 @@ var ages4 = new int[] { 8, 9, 10, 1 };
 var output4 = solution.BestTeamScore(scores4, ages4);
 Console.WriteLine(output4.ToString()); // 6
 
-
 var scores5 = new int[] { 1, 2, 3, 1 };
 var ages5 = new int[] { 1, 1, 1, 3 };
 var output5 = solution.BestTeamScore(scores5, ages5);
 Console.WriteLine(output5.ToString()); // 3
-
 
 // TODO:
 // 年輕玩家的得分嚴格高於年長玩家
