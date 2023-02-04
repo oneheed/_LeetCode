@@ -175,11 +175,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00039. Combination Sum", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00051. N-Queens", "ex00051. N-Queens\ex00051. N-Queens.csproj", "{8E469FC1-7841-42FF-8BCC-89DE28E8860A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01626. Best Team With No Conflicts", "ex01626. Best Team With No Conflicts\ex01626. Best Team With No Conflicts.csproj", "{C0498A90-5573-4FD8-9534-81521F1A9131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01626. Best Team With No Conflicts", "ex01626. Best Team With No Conflicts\ex01626. Best Team With No Conflicts.csproj", "{C0498A90-5573-4FD8-9534-81521F1A9131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01071. Greatest Common Divisor of Strings", "ex01071. Greatest Common Divisor of Strings\ex01071. Greatest Common Divisor of Strings.csproj", "{777C69FF-F839-4F8E-888C-CFA1FF9AC595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01071. Greatest Common Divisor of Strings", "ex01071. Greatest Common Divisor of Strings\ex01071. Greatest Common Divisor of Strings.csproj", "{777C69FF-F839-4F8E-888C-CFA1FF9AC595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00090. Subsets II", "ex00090. Subsets II\ex00090. Subsets II.csproj", "{E4250D9D-6604-4688-9CDE-702504B987DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00090. Subsets II", "ex00090. Subsets II\ex00090. Subsets II.csproj", "{E4250D9D-6604-4688-9CDE-702504B987DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00953. Verifying an Alien Dictionary", "ex00953. Verifying an Alien Dictionary\ex00953. Verifying an Alien Dictionary.csproj", "{B417D438-3F96-4905-85F0-E2830DC3A599}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00040. Combination Sum II", "ex00040. Combination Sum II\ex00040. Combination Sum II.csproj", "{84AC2DAC-118B-414A-8493-5519687E7B98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00006. Zigzag Conversion", "ex00006. Zigzag Conversion\ex00006. Zigzag Conversion.csproj", "{30C38572-D4D0-483E-9298-75AFEC4352E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00004. Median of Two Sorted Arrays", "ex00004. Median of Two Sorted Arrays\ex00004. Median of Two Sorted Arrays.csproj", "{89D60848-D641-45C0-BE55-812AEAD88779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -535,6 +543,22 @@ Global
 		{E4250D9D-6604-4688-9CDE-702504B987DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4250D9D-6604-4688-9CDE-702504B987DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4250D9D-6604-4688-9CDE-702504B987DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B417D438-3F96-4905-85F0-E2830DC3A599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B417D438-3F96-4905-85F0-E2830DC3A599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B417D438-3F96-4905-85F0-E2830DC3A599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B417D438-3F96-4905-85F0-E2830DC3A599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AC2DAC-118B-414A-8493-5519687E7B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AC2DAC-118B-414A-8493-5519687E7B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AC2DAC-118B-414A-8493-5519687E7B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AC2DAC-118B-414A-8493-5519687E7B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C38572-D4D0-483E-9298-75AFEC4352E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C38572-D4D0-483E-9298-75AFEC4352E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C38572-D4D0-483E-9298-75AFEC4352E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C38572-D4D0-483E-9298-75AFEC4352E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D60848-D641-45C0-BE55-812AEAD88779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D60848-D641-45C0-BE55-812AEAD88779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D60848-D641-45C0-BE55-812AEAD88779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D60848-D641-45C0-BE55-812AEAD88779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

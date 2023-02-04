@@ -13,33 +13,31 @@ public class Solution
 {
     public IList<IList<int>> SubsetsWithDup(int[] nums)
     {
-        var returnList = new List<IList<int>>() { new List<int>() };
-        var list = new List<int>();
-        for (int i = 0; i < nums.Length; i++)
+        var res = new List<IList<int>>();
+
+        Array.Sort(nums);
+
+        DFS(res, nums, 0, new List<int>());
+
+        return res;
+    }
+
+    private void DFS(List<IList<int>> res, int[] nums, int index, List<int> cur)
+    {
+        res.Add(cur);
+
+        for (int i = index; i < nums.Length; i++)
         {
-            var j = i + 1;
-            while (j < nums.Length)
+            if (index != i && nums[i - 1] == nums[i])
             {
-                if (list.Contains(nums[i]))
-                {
-                    j++;
-                    continue;
-                }
-
-                list.Add(nums[i]);
-
-                var tempList = new List<int> { nums[i] };
-                returnList.Add(new List<int>(tempList));
-
-                for (int k = j; k < nums.Length; k++)
-                {
-                    tempList.Add(nums[k]);
-                    returnList.Add(new List<int>(tempList));
-                }
-                j++;
+                continue;
             }
-        }
 
-        return returnList;
+            cur.Add(nums[i]);
+
+            DFS(res, nums, i + 1, new List<int>(cur));
+
+            cur.RemoveAt(cur.Count - 1);
+        }
     }
 }

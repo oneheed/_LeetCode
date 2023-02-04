@@ -24,7 +24,7 @@ Console.WriteLine(output4); // true
 var input5 = "hello";
 var s5 = "ooolleoooleh";
 var output5 = solution.CheckInclusion(input5, s5);
-Console.WriteLine(output5); // true
+Console.WriteLine(output5); // false
 
 public class Solution
 {
@@ -43,32 +43,25 @@ public class Solution
         var l = 0;
         for (int r = 0; r < s2.Length; r++)
         {
-            var c = s2[r];
-
             if (need.ContainsKey(s2[r]))
             {
-                need[c]--;
+                need[s2[r]]--;
             }
 
-
-            if (r - l >= s1.Length)
+            if (r - l > s1.Length - 1)
             {
-                //Console.WriteLine($"{l} {r}");
                 if (need.ContainsKey(s2[l]))
-                {
                     need[s2[l]]++;
-                }
 
                 l++;
             }
 
+            //Console.WriteLine($"{l} {r}");
 
             if (need.All(n => n.Value == 0))
                 return true;
-
-            //Console.WriteLine($"{l} {r}");
         }
 
-        return need.All(n => n.Value == 0);
+        return false;
     }
 }
