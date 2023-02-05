@@ -187,7 +187,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00040. Combination Sum II
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00006. Zigzag Conversion", "ex00006. Zigzag Conversion\ex00006. Zigzag Conversion.csproj", "{30C38572-D4D0-483E-9298-75AFEC4352E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00004. Median of Two Sorted Arrays", "ex00004. Median of Two Sorted Arrays\ex00004. Median of Two Sorted Arrays.csproj", "{89D60848-D641-45C0-BE55-812AEAD88779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00004. Median of Two Sorted Arrays", "ex00004. Median of Two Sorted Arrays\ex00004. Median of Two Sorted Arrays.csproj", "{89D60848-D641-45C0-BE55-812AEAD88779}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00410. Split Array Largest Sum", "ex00410. Split Array Largest Sum\ex00410. Split Array Largest Sum.csproj", "{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -559,6 +561,10 @@ Global
 		{89D60848-D641-45C0-BE55-812AEAD88779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D60848-D641-45C0-BE55-812AEAD88779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D60848-D641-45C0-BE55-812AEAD88779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

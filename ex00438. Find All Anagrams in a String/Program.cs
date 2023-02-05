@@ -22,43 +22,36 @@ public class Solution
         foreach (var c in p)
         {
             if (need.ContainsKey(c))
+            {
                 need[c]++;
+            }
             else
+            {
                 need.Add(c, 1);
+            }
         }
 
         var l = 0;
-
-        for (var r = 0; r < s.Length; r++)
+        for (int r = 0; r < s.Length; r++)
         {
-            //Console.WriteLine($"{l} {r}");
-
-            var c = s[r];
-            if (need.ContainsKey(c))
-                need[c]--;
-
-            if (need.All(c => c.Value == 0))
+            if (need.ContainsKey(s[r]))
             {
-                result.Add(r - p.Length + 1);
+                need[s[r]]--;
+            }
 
-                var c2 = s[l];
-                if (need.ContainsKey(c2))
+            if (r - l > p.Length - 1)
+            {
+                if (need.ContainsKey(s[l]))
                 {
-                    need[c2]++;
+                    need[s[l]]++;
                 }
 
                 l++;
             }
 
-            if (r - l == p.Length - 1)
+            if (need.All(n => n.Value == 0))
             {
-                var c2 = s[l];
-                if (need.ContainsKey(c2))
-                {
-                    need[c2]++;
-                }
-
-                l++;
+                result.Add(l);
             }
         }
 
