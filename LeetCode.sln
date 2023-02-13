@@ -204,6 +204,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01288. Remove Covered Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00904. Fruit Into Baskets", "ex00904. Fruit Into Baskets\ex00904. Fruit Into Baskets.csproj", "{6202CA9C-F8C1-4B58-894F-8C1E712EA676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01523. Count Odd Numbers in an Interval Range", "ex01523. Count Odd Numbers in an Interval Range\ex01523. Count Odd Numbers in an Interval Range.csproj", "{ACE73B6B-7204-4389-9D4B-324F09210DF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -606,6 +608,10 @@ Global
 		{6202CA9C-F8C1-4B58-894F-8C1E712EA676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6202CA9C-F8C1-4B58-894F-8C1E712EA676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6202CA9C-F8C1-4B58-894F-8C1E712EA676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
