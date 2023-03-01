@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-var solution = new Solution();
+var solution = new Solution1();
 
 var input1 = new int[] { 7, 1, 5, 3, 6, 4 };
 var output1 = solution.MaxProfit(input1);

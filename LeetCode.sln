@@ -195,16 +195,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01470. Shuffle the Array"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00045. Jump Game II", "ex00045. Jump Game II\ex00045. Jump Game II.csproj", "{B8116C2C-3615-4B7C-B3FA-DFB52C56B486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01162. As Far from Land as Possible", "ex01162. As Far from Land as Possible\ex01162. As Far from Land as Possible.csproj", "{AE8F5204-3CDE-4CD0-83DF-A9CDC369FC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01162. As Far from Land as Possible", "ex01162. As Far from Land as Possible\ex01162. As Far from Land as Possible.csproj", "{AE8F5204-3CDE-4CD0-83DF-A9CDC369FC8A}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00509. Fibonacci Number", "ex00509. Fibonacci Number\ex00509. Fibonacci Number.csproj", "{4C45014A-FA22-4997-BC97-366BD1796A89}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00322. Coin Change", "ex00322. Coin Change\ex00322. Coin Change.csproj", "{516C00F1-4630-4DA5-A5F9-53580F7A8C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01288. Remove Covered Intervals", "ex01288. Remove Covered Intervals\ex01288. Remove Covered Intervals.csproj", "{BD2AEF3C-FE76-426B-B9C2-4A2228593D5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01288. Remove Covered Intervals", "ex01288. Remove Covered Intervals\ex01288. Remove Covered Intervals.csproj", "{BD2AEF3C-FE76-426B-B9C2-4A2228593D5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00904. Fruit Into Baskets", "ex00904. Fruit Into Baskets\ex00904. Fruit Into Baskets.csproj", "{6202CA9C-F8C1-4B58-894F-8C1E712EA676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00904. Fruit Into Baskets", "ex00904. Fruit Into Baskets\ex00904. Fruit Into Baskets.csproj", "{6202CA9C-F8C1-4B58-894F-8C1E712EA676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01523. Count Odd Numbers in an Interval Range", "ex01523. Count Odd Numbers in an Interval Range\ex01523. Count Odd Numbers in an Interval Range.csproj", "{ACE73B6B-7204-4389-9D4B-324F09210DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01523. Count Odd Numbers in an Interval Range", "ex01523. Count Odd Numbers in an Interval Range\ex01523. Count Odd Numbers in an Interval Range.csproj", "{ACE73B6B-7204-4389-9D4B-324F09210DF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00122. Best Time to Buy and Sell Stock II", "ex00122. Best Time to Buy and Sell Stock II\ex00122. Best Time to Buy and Sell Stock II.csproj", "{1B977AE7-04C1-4ABB-8D5B-EB216B5C72E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex00783. Minimum Distance Between BST Nodes", "ex00783. Minimum Distance Between BST Nodes\ex00783. Minimum Distance Between BST Nodes.csproj", "{9664A349-0E44-4191-B296-99E4AE1F28FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex00703. Kth Largest Element in a Stream", "ex00703. Kth Largest Element in a Stream\ex00703. Kth Largest Element in a Stream.csproj", "{74DCF220-F7F7-48FF-8DA7-7072B4CFD4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01046. Last Stone Weight", "ex01046. Last Stone Weight\ex01046. Last Stone Weight.csproj", "{A827C709-F54D-47B4-AC10-6EB8C98F7EEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -580,7 +589,7 @@ Global
 		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07854C10-E06C-4FC0-AEE5-AEE47AAADB4E}.Release|Any CPU.Build.0 = Release|Any CPU
-        {629FA6A0-DEF8-4461-A786-9A1D76BA855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629FA6A0-DEF8-4461-A786-9A1D76BA855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{629FA6A0-DEF8-4461-A786-9A1D76BA855D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{629FA6A0-DEF8-4461-A786-9A1D76BA855D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{629FA6A0-DEF8-4461-A786-9A1D76BA855D}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -592,7 +601,7 @@ Global
 		{AE8F5204-3CDE-4CD0-83DF-A9CDC369FC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE8F5204-3CDE-4CD0-83DF-A9CDC369FC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE8F5204-3CDE-4CD0-83DF-A9CDC369FC8A}.Release|Any CPU.Build.0 = Release|Any CPU
-        {4C45014A-FA22-4997-BC97-366BD1796A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C45014A-FA22-4997-BC97-366BD1796A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C45014A-FA22-4997-BC97-366BD1796A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C45014A-FA22-4997-BC97-366BD1796A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C45014A-FA22-4997-BC97-366BD1796A89}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -612,6 +621,22 @@ Global
 		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE73B6B-7204-4389-9D4B-324F09210DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B977AE7-04C1-4ABB-8D5B-EB216B5C72E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B977AE7-04C1-4ABB-8D5B-EB216B5C72E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B977AE7-04C1-4ABB-8D5B-EB216B5C72E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B977AE7-04C1-4ABB-8D5B-EB216B5C72E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9664A349-0E44-4191-B296-99E4AE1F28FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9664A349-0E44-4191-B296-99E4AE1F28FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9664A349-0E44-4191-B296-99E4AE1F28FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9664A349-0E44-4191-B296-99E4AE1F28FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DCF220-F7F7-48FF-8DA7-7072B4CFD4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DCF220-F7F7-48FF-8DA7-7072B4CFD4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DCF220-F7F7-48FF-8DA7-7072B4CFD4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DCF220-F7F7-48FF-8DA7-7072B4CFD4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A827C709-F54D-47B4-AC10-6EB8C98F7EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A827C709-F54D-47B4-AC10-6EB8C98F7EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A827C709-F54D-47B4-AC10-6EB8C98F7EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A827C709-F54D-47B4-AC10-6EB8C98F7EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
